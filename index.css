@@ -1,0 +1,91 @@
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+img {
+    width: 300px;
+    height: 187.5px;
+}
+
+.slideshow-container {
+    width: 300px;
+    height: 250px;
+}
+
+.slider .slide-item .item {
+    display: none;
+    position: relative;
+}
+
+.slider .slide-item .item.active {
+    display: block;
+}
+
+.container {
+    display: block;
+    border: solid;
+    width: 300px;
+    height: 250px;
+    position: relative;
+}
+
+button {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    border: solid;
+    margin-top: 2px;
+}
+
+#btnPrev {
+    margin-right: 196px;
+    margin-left: 25px;
+    margin-top: 24px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 51px;
+    text-align: center;
+    font-family: ui-monospace;
+}
+
+h1 {
+    font-size: 29px !important;
+    text-align: center;
+    margin: 0;
+    margin-top: -49px;
+}
+
+#h1 {
+    margin-top: -7px;
+}
+
+#img1:checked~.m1 {
+    margin-left: 0;
+}
+
+#img2:checked~.m2 {
+    margin-left: -100%;
+}
+
+#img3:checked~.m3 {
+    margin-left: -200%;
+}
+
+#img4:checked~.m4 {
+    margin-left: -300;
+}
